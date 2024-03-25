@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spider Solitaire</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #008000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .game-container {
+      background-color: #FFF;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .tableau {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .column {
+      width: 100px;
+      height: 300px;
+      background-color: #EEE;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    .card {
+      width: 80px;
+      height: 120px;
+      background-color: #FFF;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #CCC;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-container">
+    <h1>Spider Solitaire</h1>
+    <div class="tableau">
+      <div class="column">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <div class="column">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <div class="column">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <!-- Add more columns here -->
+    </div>
+  </div>
+</body>
+</html>
