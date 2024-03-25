@@ -23,9 +23,6 @@ To get started with Spider Solitaire, follow these steps:
 
 3. **Start Playing**: Click or drag cards to move them between columns and arrange them in descending order of the same suit. Aim to build complete stacks of cards from King to Ace to win the game.
 
-## Demo
-
-![Spider Solitaire Demo](demo.gif)
 
 ## Contributing
 
